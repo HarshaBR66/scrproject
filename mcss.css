@@ -1,0 +1,110 @@
+#carouselExample {
+    height: 360px;
+    width: 1263.33px ;
+    }
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+    }
+  .dpt {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 270px;
+    
+  }
+  .overview {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600px;
+    padding: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-evenly;
+    background-color: #78100D;
+    color: white;
+  
+  }
+  
+  .Address {
+    margin-top: 5px;
+    width: max-content;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Quick-contact {
+    margin-top: 5px;
+    height: 125px;
+    width: max-content;
+    border: 3px solid black;
+    padding: 20px;
+  }
+  
+  .Email {
+    margin-top: 5px;
+
+    height: 125px;
+    border: 3px solid black;
+    padding: 20px;
+  }
+  
+  .header .dpt {
+    background-color: #78100D;
+    color: white;
+    
+  }
+  
+  .navi {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-evenly;
+    background-color: #78100D;
+    text-decoration: none;
+    color:inherit;
+    margin-top: 5px;
+    
+  }
+  .ac {
+    color:white;
+    text-decoration: none;
+  }
+  
+div h2 {
+    text-decoration: underline;
+    color: #78100D;
+}  
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 1.25rem;
+}
+
+.rrr{
+    height: 300px;
+    width: 1233.33px;
+    border: 5px solid black;
+}
+.rrr img {
+    height: 100%;
+    width: 100%;
+
+}
+.se {
+    border: 5px solid black;
+}
+
+.se img {
+    height: 100%;
+    width: 100%;
+
+}

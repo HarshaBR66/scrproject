@@ -1,0 +1,293 @@
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(-240px) scale(5.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(0.9);
+  }
+  
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(0.9);
+  }
+  
+}
+#carouselExample {
+  height: 250px;
+  width: 100% ;
+  z-index: 6;
+  margin-bottom: 6rem;
+  
+  }
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  
+  }
+.dpt {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-right: 270px;
+  
+}
+.overview {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600px;
+  padding: 10px;
+  animation: fade-up 0.5s;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: space-evenly;
+  background-color: #78100D;
+  color: white;
+
+}
+
+.Address {
+  margin-top: 5px;
+  width: max-content;
+  border: 3px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Quick-contact {
+  margin-top: 5px;
+  height: 125px;
+  width: max-content;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.Email {
+  margin-top: 5px;
+
+  height: 125px;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.header .dpt {
+  background-color: #78100D;
+  color: white;
+  
+}
+
+.navi {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: space-evenly;
+  background-color: #78100D;
+  text-decoration: none;
+  color:inherit;
+  margin-top: 5px;
+  
+}
+.ac {
+  color:white;
+  text-decoration: none;
+}
+
+div h2 {
+  text-decoration: underline;
+  color: #78100D;
+}  
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-size: 1.25rem;
+}
+
+.rrr{
+  height: 300px;
+  width: 1233.33px;
+  border: 5px solid black;
+}
+.rrr img {
+  height: 100%;
+  width: 100%;
+
+}
+.se {
+  border: 5px solid black;
+}
+
+.se img {
+  height: 100%;
+  width: 100%;
+
+}
+header{
+  
+  color: #78100D;
+  text-decoration: underline;
+}
+.ow {
+  font-family: 'Playfair Display', serif;
+  font-weight: 1600px;
+  padding: 10px;
+  animation: fade-up 0.5s;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 1000px;
+  letter-spacing: -.5px;
+}
+.ow h3 {
+  text-decoration: underline;
+  color: #78100D;
+}
+iframe{
+  width: 85%;
+  height: 975px;
+}
+
+.gw{
+  text-decoration: none;
+  color: #78100D;
+}
+
+#fq {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600px;
+  padding: 10px;
+}
+
+.ani iframe{
+  height: 300px;
+  width: 100%;
+  margin: left 10px;;
+
+}
+.gif img{
+  height: 300px;
+  width: 100%;
+  margin: left 10px;;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  .header .dpt {
+    padding-right: 10px;
+  }
+
+  .logo {
+    padding-right: 10px;
+  }
+
+  .navi {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navi a {
+    margin: 5px;
+  }
+
+  .ow {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .rrr,
+  .se {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .rrr,
+  .se img {
+    height: auto;
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Address,
+  .Quick-contact,
+  .Email {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.header {
+  height: 150px;
+  background-color: #78100D;
+  position: relative;
+  
+}
+.header img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+.header h1 {
+  color: white;
+  text-decoration: underline;
+}
+.header h2 {
+  color: white;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.dpt {
+  margin-right: auto;
+}
+
+.logo img {
+  max-height: 150px;
+   /* Adjust the maximum height of the logo */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .dpt {
+    padding-right: 0;
+    margin-right: 0;
+  }
+}
